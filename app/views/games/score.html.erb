@@ -1,4 +1,8 @@
-<%= hidden_field_tag @grid %>
-<%= @score %>
+<h2>
+  Results
+</h2>
+
+<p><%= @score %></p>
+<h3><%=session[:answer]%></h3>
 <br>
-<%= link_to 'play again', new_path %>
+<p> <%= link_to 'Play again', new_path %> </p>

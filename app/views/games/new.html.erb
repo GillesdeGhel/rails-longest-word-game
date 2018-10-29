@@ -3,7 +3,7 @@
 <ul class="list-inline">
   <% @grid.each do |letter| %>
   <div class="col-xs-1">
-    <div class="letter"><li> <%= letter %></li></div>
+    <div class="letter"><li> <%= letter.upcase %></li></div>
   </div>
   <% end %>
 </ul>
